@@ -25,7 +25,7 @@ int main()
     }
     printf("Total: %d\n", total);
     printf("Total Numbers Entered: %d\n", count);
-    float average = total / count;
+    double average = (total / count);
     printf("The average is : %f\n", average);
     return 0;
 }
