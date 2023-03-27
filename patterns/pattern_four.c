@@ -2,6 +2,8 @@
 
 int main(void)
 {
+    // pattern four
+
     int i, j;
     for (i = 1; i <= 5; i++)
     {
