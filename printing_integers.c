@@ -26,7 +26,7 @@ void printing_integers(int num)
         num = -num;
     }
 
-    // Recursion of removing the last digit
+    // Removing the last digit using recurssion
     if (num / 10)
     {
         printing_integers(num / 10);
