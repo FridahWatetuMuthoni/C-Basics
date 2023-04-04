@@ -4,14 +4,14 @@ void fibonacci_sequence(int n);
 
 int main(void)
 {
-    int n = 100;
+    int n = 98;
     fibonacci_sequence(n);
     return (0);
 }
 
 void fibonacci_sequence(int n)
 {
-    unsigned long i, first, second, sum;
+    unsigned long long i, first, second, sum;
 
     first = 0;
     second = 1;
@@ -20,11 +20,11 @@ void fibonacci_sequence(int n)
     {
         if (first == 0 && second == 1)
         {
-            printf("%lu, ", first);
-            printf("%lu, ", second);
+            printf("%llu, ", first);
+            printf("%llu, ", second);
         }
         sum = first + second;
-        printf("%lu", sum);
+        printf("%llu", sum);
         if (i == n - 1)
         {
             printf("\n");
